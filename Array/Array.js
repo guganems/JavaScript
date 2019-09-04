@@ -57,3 +57,34 @@ var removedItems = vegetables.splice(pos, n);
 
 // Copy an Array
 var shallowCopy = fruits.slice();
+
+
+// Accessing array elements
+var arr = ['this is the first element', 'this is the second element', 'this is the third element'];
+// console.log(arr[0]);
+// console.log(arr[1]);
+// console.log(arr[arr.length-1]);
+
+var years = [1950, 1960, 1970, 1980, 1990, 2000, 2010];
+// console.log(years[0]);
+
+// console.log(years['2'] != years['02']);
+
+var promise = {
+    'var' : 'text',
+    'array' : [1, 2, 3, 4]
+};
+
+// console.log(promise['var']);
+
+
+// Relationship between length and numerical properties
+var fruits = [];
+fruits.push('banana', 'apple', 'peach');
+
+// console.log(fruits.length);
+
+fruits[5] = 'mango';
+console.log(fruits[5]);
+console.log(Object.keys(fruits));
+console.log(fruits.length);
