@@ -85,6 +85,19 @@ fruits.push('banana', 'apple', 'peach');
 // console.log(fruits.length);
 
 fruits[5] = 'mango';
-console.log(fruits[5]);
-console.log(Object.keys(fruits));
-console.log(fruits.length);
+// console.log(fruits[5]);
+// console.log(Object.keys(fruits));
+// console.log(fruits.length);
+
+fruits.length = 10;
+// console.log(Object.keys(fruits));
+// console.log(fruits.length);
+
+fruits.length = 2;
+// console.log(Object.keys(fruits));
+// console.log(fruits.length);
+
+
+// Creating an array using the result of match
+var myRe = /d(b+)(d)/i;
+var myArray = myRe.exec('cdbBdbsbz');
